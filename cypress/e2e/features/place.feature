@@ -48,3 +48,9 @@ Cenário: Pesquisa com o País
     E clico em pesquisar
     Então exibe o local "Brasil"
     E exibe a área territorial "8.510.417,771"
+
+Cenário: Pesquisa com o Estado e Código
+    Quando eu informo a UF ou município "Rio de janeiro"
+    E clico em pesquisar
+    Então exibe o local "Rio de janeiro"
+    E exibe a área territorial "43.750,425"
