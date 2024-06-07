@@ -3,7 +3,27 @@
         {
             "lugar": "Paraíba",
             "mensagem": "Paraíba",
-            "area" : "56.467,242"
+            "area": "56.467,242"
+        },
+        {
+            "lugar": "2500502",
+            "mensagem": "Alagoinha",
+            "area": "111,361"
+        },
+        {
+            "lugar": "Cabedelo",
+            "mensagem": "Cabedelo",
+            "area": "29,873"
+        },
+        {
+            "lugar": "Alagoinha 2500502",
+            "mensagem": "Alagoinha",
+            "area": "111,361"
+        },
+        {
+            "lugar": "Madri",
+            "mensagem": "Brasil",
+            "area": "8.510.417,771"
         }
     ]
 }
