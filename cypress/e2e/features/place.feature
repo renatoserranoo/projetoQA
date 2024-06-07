@@ -17,7 +17,7 @@ Esquema do Cenário: Pesquisa de Cidades e Estados
     | "2500502"                | "Alagoinha"          | "111,361"           |
     | "Cabedelo"               | "Cabedelo"           | "29,873"            |
     | "Alagoinha 2500502"      | "Alagoinha"          | "111,361"           |
-    | "Madri"                  | "Brasil"             | "8.510.417,771"     |
+    | "Brasil"                 | "Brasil"             | "8.510.417,771"     |
 
 Cenário: Pesquisa com Estado
     Quando eu informo a UF ou município "Paraíba"
@@ -43,8 +43,8 @@ Cenário: Pesquisa com Cidade e Código
     Então exibe o local "Alagoinha"
     E exibe a área territorial "111,361"
 
-Cenário: Pesquisa com Cidade inexistente no Brasil
-    Quando eu informo a UF ou município "Madri"
+Cenário: Pesquisa com o País
+    Quando eu informo a UF ou município "Brasil"
     E clico em pesquisar
     Então exibe o local "Brasil"
     E exibe a área territorial "8.510.417,771"
