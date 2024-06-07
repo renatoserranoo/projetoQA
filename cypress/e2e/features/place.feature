@@ -18,6 +18,7 @@ Esquema do Cenário: Pesquisa de Cidades e Estados
     | "Cabedelo"               | "Cabedelo"           | "29,873"            |
     | "Alagoinha 2500502"      | "Alagoinha"          | "111,361"           |
     | "Brasil"                 | "Brasil"             | "8.510.417,771"     |
+    | "Rio de Janeiro"         | "Rio de Janeiro"     | "43.750,425"        |
 
 Cenário: Pesquisa com Estado
     Quando eu informo a UF ou município "Paraíba"
